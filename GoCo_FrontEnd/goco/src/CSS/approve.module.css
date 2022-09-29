@@ -1,0 +1,68 @@
+* {
+  font-family: 'GmarketSans';
+}
+
+.tab {
+  font-family: 'GmarketSans';
+  font-size: large;
+  font-weight: 500;
+}
+
+.title {
+  font-family: 'GmarketSans';
+  font-size: large;
+  font-weight: 500;
+  color: grey;
+}
+
+.select {
+  font-family: 'GmarketSans';
+  font-size: small;
+  font-weight: 500;
+  color: gray;
+}
+
+.sidebar_container {
+  margin-top: 3%;
+  margin-left: 3%;
+  display: flex;
+  position: relative;
+  /* right: 20%; */
+  min-height: 75vh;
+  align-items: center;
+  width: 20%;
+  justify-content: space-between;
+  flex-direction: column;
+  text-align: center;
+}
+
+.css-ahj2mt-MuiTypography-root {
+  font-family: 'GmarketSans';
+}
+
+.filebox .upload-name {
+  display: inline-block;
+  height: 6px;
+  padding: 0 10px;
+  vertical-align: middle;
+  border: 1px solid #dddddd;
+  width: 78%;
+  color: #999999;
+}
+
+.filebox label {
+  display: inline-block;
+  padding: 10px 20px;
+  color: #fff;
+  vertical-align: middle;
+  background-color: #999999;
+  cursor: pointer;
+  height: 40px;
+  margin-left: 10px;
+}
+
+/* sidebar */
+.filter {
+  padding-top: 3%;
+  padding-bottom: 3%;
+}

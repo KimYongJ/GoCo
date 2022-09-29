@@ -1,0 +1,164 @@
+.Header {
+  position: static;
+  top: 0;
+  max-height: 70px;
+  padding: 18px;
+  width: 98%;
+  display: grid;
+  grid-template-areas: 'logo nav';
+  background-color: rgba(230, 247, 255, 0.8);
+  margin-bottom: 10px;
+}
+.link-logo {
+  width: 10%;
+}
+
+.Logo {
+  grid-area: logo;
+  height: 70px;
+  margin-left: 30px;
+}
+.nav-text {
+  color: #a8a8a8;
+  font-family: 'GmarketSans';
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+}
+.leader {
+  font-family: 'GmarketSans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 24px;
+  text-align: center;
+}
+.Nav {
+  display: grid;
+  grid-area: nav;
+  grid-template-columns: repeat(7, auto);
+  align-items: center;
+
+  justify-items: center;
+}
+.Nav a {
+  color: #a8a8a8;
+  font-family: 'GmarketSans';
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 36px;
+  text-align: center;
+  text-decoration: none;
+}
+.Nav a:hover {
+  transform: scale(1.1);
+}
+
+.Nav .mangerChangeBtn {
+  width: 224px;
+  height: 69px;
+  background: rgba(179, 179, 179, 0.62);
+  border: 1px solid #616161;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.Nav a .mangerChangeBtn {
+  font-family: 'GmarketSans';
+  font-weight: 500;
+  font-size: 24px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.Nav .user-change-btn {
+  width: 224px;
+  height: 69px;
+  background: #ffffff;
+  border: 1px solid #616161;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.Nav a .user-change-btn {
+  font-family: 'GmarketSans';
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+  color: #616161;
+}
+
+.Nav button:active {
+  transform: translateY(3px);
+  box-shadow: 0px 2px 0px 0px rgba(255, 0, 0, 0.25);
+}
+
+.Burger {
+  display: none;
+  grid-area: burger;
+  margin: 0 20px 0 0;
+  padding: 0;
+  justify-self: end;
+  font-size: 24px;
+  border: none;
+  background: none;
+  outline: none;
+  transition: 0.1s;
+}
+.Burger:active {
+  transform: scale(1.2);
+}
+
+.dropdown {
+  float: center;
+  /* overflow: visible; */
+}
+
+.dropdown .dropbtn {
+  font-family: 'GmarketSans';
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 36px;
+  text-align: center;
+  border: none;
+  outline: none;
+  /* padding: 20px 16px; */
+  background-color: inherit;
+  color: darkgray;
+  margin: 0;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  border: 1px #616161 solid;
+  background-color: white;
+  min-width: 160px;
+  z-index: 1;
+}
+
+/* .dropdown-content a {
+  float: none;
+  background-color: inherit;
+  color: #00aaff;
+  padding: 10px 30px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+} */
+
+/* .dropdown-content a:hover {
+  background-color: inherit;
+  color: #00aaff;
+} */
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  cursor: pointer;
+}
+.dropdown:hover .dropbtn {
+  background-color: inherit;
+  color: gray;
+}
