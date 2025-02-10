@@ -45,21 +45,27 @@
 
 ## 시스템 아키텍처
 
-<img src="Docs/image/SystemArchitecture.png" width="80%">
+<img src="Docs/image/아키텍처.jpg" width="80%">
 
 ## ERD
 
-<img src="Docs/image/ERD.png" width="80%" height="400px">
+<img src="Docs/image/erd.jpg" width="80%" height="400px">
 
 ## 기능 구성도
 
-<img src="Docs/image/Flowchart.png" width="80%" height="400px">
+<img src="Docs/image/기능구성도.jpg" width="80%" height="400px">
+
+## 역할 분담
+
+<img src="Docs/image/역할분담.jpg" width="80%" height="400px">
 
 ## 주요 기능
 
-<img src="Docs/image/login.png" width="80%" height="400px">
-<img src="Docs/image/loginflow.png" width="80%" height="400px">
-<img src="Docs/image/springsecurity.png" width="80%" height="400px">
-<img src="Docs/image/findpwd.png" width="80%" height="400px">
-<img src="Docs/image/signup.png" width="80%" height="400px">
-<img src="Docs/image/accesstoken.png" width="80%" height="400px">
+<img src="Docs/image/1.jpg" width="80%" height="400px">
+<img src="Docs/image/2.jpg" width="80%" height="400px">
+<img src="Docs/image/3.jpg" width="80%" height="400px">
+<img src="Docs/image/4.jpg" width="80%" height="400px">
+<img src="Docs/image/5.jpg" width="80%" height="400px">
+<img src="Docs/image/6.jpg" width="80%" height="400px">
+<img src="Docs/image/7.jpg" width="80%" height="400px">
+<img src="Docs/image/8.jpg" width="80%" height="400px">
